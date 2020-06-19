@@ -35,6 +35,8 @@ function printStars() {
                     str.style.fill = '#353535';
                     str.isClicked = false;
                 }
+                
+                selectedRating = 0;
             } else {
                 for (let i = 0; i < id; i++) {
                     parent.children[i].isClicked = true;
